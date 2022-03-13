@@ -17,8 +17,8 @@ $$ \__/  |$$ \__/  |   $$ |    _$$ |_ $$ |
 $$    $$/ $$    $$/    $$ |   / $$   |$$ |      
  $$$$$$/   $$$$$$/     $$/    $$$$$$/ $$/  
 """
-api_id = xxxxxxx
-api_hash = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+api_id = xxxxxx
+api_hash = 'xxxxxxxxxxxxxxxxxxx'
 
 if len(sys.argv) == 2:
     nomer = sys.argv[1]
@@ -41,6 +41,10 @@ async def main(event):
             message = event.message.message.split("Send ")[1].split(" to grab it!")[0]
             await client.send_message(event.message.peer_id.channel_id, message)
             print(f"\033[1;31m{username} \033[1;32msend message \033[1;36m{message}\033[0m")
+        elif "Created a giveaway in" in event.message.mesaage :
+            sleep(1)
+            await event.click(text="👉Grab👈")
+            print(f"\033[1:31m{username} \033[1;33msuksess claim giveaway\033[0m")
     except:
         pass
 async def main():
