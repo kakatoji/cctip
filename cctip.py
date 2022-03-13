@@ -44,7 +44,7 @@ async def main(event):
         elif "Created a giveaway in" in event.message.message :
             sleep(1)
             await event.click(text="👉Grab👈")
-            print(f"\033[1:31m{username} \033[1;33msuksess claim giveaway\033[0m")
+            print(f"\033[1;31m{username} \033[1;33msuksess claim giveaway\033[0m")
     except:
         pass
 async def main():
