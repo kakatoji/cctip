@@ -17,8 +17,8 @@ $$ \__/  |$$ \__/  |   $$ |    _$$ |_ $$ |
 $$    $$/ $$    $$/    $$ |   / $$   |$$ |      
  $$$$$$/   $$$$$$/     $$/    $$$$$$/ $$/  
 """
-api_id = xxxxxx
-api_hash = 'xxxxxxxxxxxxxxxxxxx'
+api_id = 1988466
+api_hash = 'c24b35d219f6856b93c90ab02b52b147'
 
 if len(sys.argv) == 2:
     nomer = sys.argv[1]
