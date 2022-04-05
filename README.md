@@ -29,3 +29,9 @@ python cctip.py +6289191775515
 **Jika ingin multy akun,install beberapa keperluan**
 * tmux
 - [x] pkg install tmux
+![Screenshot_20220405-200319_Termux](https://user-images.githubusercontent.com/29997681/161750049-00a8a423-54b4-47ca-b563-39e836c07e0f.jpg)
+ * penampakan akan seperti ini
+**Menu tmux dan tutor slanjut nya**
+* pastikan posisi berada seperti di posisi seperti gambar diatas
+1. untuk membuka sesi tmux baru anda cukup melakulan
+- [x] ctrl + b + c
