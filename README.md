@@ -49,6 +49,6 @@ python cctip.py +6289191775515
 
 #### warning
 * saat menggunakan script ini usahakan jangan menggunakan akun utama
- * segala resiku di tanggung user
+ * segala resiko di tanggung user
 
 **TERIMAKASIH**
