@@ -46,3 +46,9 @@ python cctip.py +6289191775515
 - [x] Ctrl+b x Menutup panel yang sedang berjalan
 
 * [link tutorial tmux](https://gegeriyadi.com/tmux-tutorial/)
+
+#### warning
+* saat menggunakan script ini usahakan jangan menggunakan akun utama
+ * segala resiku di tanggung user
+
+**TERIMAKASIH**
