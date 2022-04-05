@@ -31,7 +31,16 @@ python cctip.py +6289191775515
 - [x] pkg install tmux
 ![Screenshot_20220405-200319_Termux](https://user-images.githubusercontent.com/29997681/161750049-00a8a423-54b4-47ca-b563-39e836c07e0f.jpg)
  * penampakan akan seperti ini
-**Menu tmux dan tutor slanjut nya**
+
+   **Menu tmux dan tutor slanjut nya**
 * pastikan posisi berada seperti di posisi seperti gambar diatas
 1. untuk membuka sesi tmux baru anda cukup melakulan
-- [x] ctrl + b + c
+- [x] Ctrl+b c Membuat jendela baru (dengan shell)
+- [x] Ctrl+b w Memilih jendela dari list yang ada
+- [x] Ctrl+b 0 Mengganti ke jendela 0
+- [x] Ctrl+b , Mengganti nama jendela yang sedang berjalan
+- [x] Ctrl+b % Membagi panel yang sedang berjalan secara horizontal menjadi dua panel
+- [x] Ctrl+b " Membagi panel yang sedang berjalan secara vertical
+- [x] Ctrl+b o Menuju ke panel berikutnya
+- [x] Ctrl+b ; Berpindah antara panel yang sedang berjalan dan panel berikutnya
+- [x] Ctrl+b x Menutup panel yang sedang berjalan
