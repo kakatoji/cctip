@@ -28,4 +28,4 @@ python cctip.py +6289191775515
 ### Tutor multy akun
 **Jika ingin multy akun,install beberapa keperluan**
 * tmux
--[x] pkg install tmux
+- [x] pkg install tmux
