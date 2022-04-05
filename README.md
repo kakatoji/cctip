@@ -44,3 +44,5 @@ python cctip.py +6289191775515
 - [x] Ctrl+b o Menuju ke panel berikutnya
 - [x] Ctrl+b ; Berpindah antara panel yang sedang berjalan dan panel berikutnya
 - [x] Ctrl+b x Menutup panel yang sedang berjalan
+
+* [link tutorial tmux](https://gegeriyadi.com/tmux-tutorial/)
