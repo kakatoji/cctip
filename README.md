@@ -2,7 +2,7 @@
 * free script not pay
 ```
 install
-pkg inatall python
+pkg install python
 pip install telethon
 
 next
