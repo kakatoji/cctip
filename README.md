@@ -24,3 +24,8 @@ python cctip.py +6289191775515
 * [Crypto shark](https://t.me/CryptoShark100)
 * [Crypto games](https://t.me/CRAGames)
 * [Crypto slebew](https://t.me/cctip_svip)
+
+### Tutor multy akun
+**Jika ingin multy akun,install beberapa keperluan**
+* tmux
+-[x] pkg install tmux
