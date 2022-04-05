@@ -1,7 +1,11 @@
 # cctip
 * free script not pay
 ```
-example 
+install
+pkg inatall python
+pip install telethon
+
+next
 
 python cctip.py +6289191775515
 
