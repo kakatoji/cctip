@@ -17,8 +17,8 @@ $$ \__/  |$$ \__/  |   $$ |    _$$ |_ $$ |
 $$    $$/ $$    $$/    $$ |   / $$   |$$ |      
  $$$$$$/   $$$$$$/     $$/    $$$$$$/ $$/  
 """
-api_id = 1988466
-api_hash = 'c24b35d219f6856b93c90ab02b52b147'
+api_id = 1280526
+api_hash = '06d4fe1f8d79763fb5cee5e0a366c528'
 
 if len(sys.argv) == 2:
     nomer = sys.argv[1]
@@ -37,14 +37,23 @@ async def main(event):
     except:
         pass
     try:
-        if event.from_id.user_id == 962775809 and event.message.out == False and "Created an airdrop in" in event.message.message :
-            message = event.message.message.split("Send ")[1].split(" to grab it!")[0]
-            await client.send_message(event.message.peer_id.channel_id, message)
-            print(f"\033[1;31m{username} \033[1;32msend message \033[1;36m{message}\033[0m")
-        elif "Created a giveaway in" in event.message.message :
-            sleep(1)
-            await event.click(text="👉Grab👈")
-            print(f"\033[1;31m{username} \033[1;33msuksess claim giveaway\033[0m")
+        if event.from_id.user_id == 962775809 and event.message.out == False and "Created an airdrop in" in event.message.message:
+            async with client.action(event.message.peer_id.channel_id, 'typing'):
+                await asyncio.sleep(random.randint(5))
+                message = event.message.message.split("Send ")[1].split(" to grab it!")[0]
+                await client.send_message(event.message.peer_id.channel_id, message)
+                print(f"\033[1;31m{username} \033[1;32msend message \033[1;36m{message}\033[0m")
+        elif "Created a giveaway in" in event.message.message:
+            async with client.action(event.message.peer_id.channel_id,'typing'):
+                #await asyncio.sleep(random.randint(1,3))
+                await event.click(text='👉Grab👈')
+                print(f"\033[1;31m{username} \033[1;33msuksess claim giveaway\033[0m")
+        elif event.from_id.user_id == 962775809 and event.message.out == False and "Created a draw in" in event.message.message:
+            async with client.action(event.message.peer_id.channel_id,'typing'):
+                await asyncio.sleep(random.randint(2,5))
+                pesan = event.message.message.split("Send")[1].split("to grab it!")[0]
+                await client.send_message(event.message.peer_id.channel_id, pesan)
+                print(f"\033[1;31m{username} \033[1;32msend draw \033[1;36m{pesan}\033[0m")
     except:
         pass
 async def main():
